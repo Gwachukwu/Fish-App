@@ -1,0 +1,127 @@
+* {
+  margin: auto;
+}
+body{
+  color: white;
+}
+.cover{
+  background-image: url("https://www.worldatlas.com/r/w1200-h701-c1200x701/upload/8a/6e/a6/shutterstock-519883603.jpg");
+  position: relative;
+}
+.overlay{
+  background-color: rgba(0, 0, 0,0.8);
+}
+h1{
+  text-align: center;
+  text-decoration: underline;
+}
+.header-btn{
+  text-align: center;
+  padding: 2rem;
+}
+.form-links{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 21rem;
+}
+.form-links-btn{
+  padding: 0.5rem;
+  border: 2px solid white;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 0;
+}
+.form-links-btn:hover{
+  background-color: white;
+  color: black;
+}
+.main-wrapper {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-around;
+  width: 90%;
+}
+.card {
+  width: 10rem;
+  height: 6rem;
+  padding: 2rem;
+  margin: 1rem;
+  color:black;
+  border: 5px solid white;
+  border-radius: 1rem;
+  text-transform: capitalize;
+  background-color: white;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+.filters {
+  padding: 1rem;
+  display: block;
+  margin: auto;
+  max-width: 25rem;
+  font-weight: bold;
+}
+.filter-links {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  margin-left: 1%;
+  border: 1px solid white;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: white;
+}
+.filter-links:hover {
+  background-color: white;
+  color: black;
+}
+.form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 35rem;
+}
+.edit{
+  max-width: 50rem;
+}
+.delete{
+  max-width: 18rem;
+}
+input{
+  border: none;
+  padding: 0.4rem;
+  height: 1.3rem;
+  border-radius: 2rem;
+  outline: none;
+}
+input[type="submit"]{
+  padding: 0rem 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1.3rem;
+  border: 2px solid white;
+  background-color: inherit;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+input[type="submit"]:hover{
+color: black;
+background-color: white;
+}
+.delete input[type="submit"]:hover{
+  background-color: red;
+}
+select{
+  height: 2rem;
+  border-radius: 2rem;
+  outline: none;
+}
+.hide{
+  display: none;
+}
